@@ -1,0 +1,30 @@
+<!-- File: index.html -->
+<!-- Version: v1.0 -->
+<!-- Created: 2025-04-16 -->
+<!-- Created by: Jayson Gilbertson -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PW Chat v2</title>
+  <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+
+  <div class="chat-wrapper">
+    <h1>📡 PW Chat v2 – Test Mode</h1>
+
+    <div id="messages" class="chat-window"></div>
+
+    <form id="chatForm" enctype="multipart/form-data">
+      <input type="text" name="message" placeholder="Type your message..." required />
+      <input type="file" name="file" accept="image/*">
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="chat.js"></script>
+</body>
+</html>
